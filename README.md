@@ -1,10 +1,10 @@
 Programming language used: Python
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Program purpose:
 
 Utilize RSA public key encryption to implement a utility for creating and verifying digital signatures of file by making use of python cryptographic library
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # HOW TO EXECUTE
 - Create signature of the file
     python skeleton.py privKey.pem <SIGNATURE FILE NAME> <INPUT FILE NAME> sign
@@ -44,13 +44,12 @@ Utilize RSA public key encryption to implement a utility for creating and verify
 - KEY:
     - the key that is used for encrypting the file using AES algorithm
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Extra Credit:
 
 Implemented a functionality such that on signing, embeds the signature in the file and gives the user the option to encrypt
 the file using AES (with the user-specified specified key). When the file is decrypted, the signature will also be verified
 and the user will be made aware of the whether it matches. The resulting decrypted file must have the embedded signature removed from it.
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                                                                                      -END-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                                                      
